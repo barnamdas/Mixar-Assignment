@@ -1,0 +1,39 @@
+{
+  "mesh": "explosive.obj",
+  "tag": "explosive",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 1.2438178890503777e-07,
+    "mse_xyz": [
+      5.251261550316453e-08,
+      2.725553511728668e-07,
+      4.8077400039084075e-08
+    ],
+    "mae": 0.0002755318578340662,
+    "mae_xyz": [
+      0.00019612069937664174,
+      0.00043890841617200534,
+      0.00019156645795355407
+    ],
+    "norm_mesh": "outputs_task3\\explosive_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\explosive_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 3.901548210927798e-07,
+    "mse_xyz": [
+      4.512319599703577e-07,
+      3.74721075605803e-07,
+      3.4451142770217755e-07
+    ],
+    "mae": 0.000546595852152484,
+    "mae_xyz": [
+      0.0005982647499342709,
+      0.0005436687963675015,
+      0.0004978540101556778
+    ],
+    "norm_mesh": "outputs_task3\\explosive_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\explosive_unitsphere_quant.ply"
+  }
+}

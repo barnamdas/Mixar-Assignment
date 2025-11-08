@@ -1,0 +1,39 @@
+{
+  "mesh": "person.obj",
+  "tag": "person",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 7.891145874144547e-07,
+    "mse_xyz": [
+      9.089308016293389e-07,
+      1.396803862313391e-06,
+      6.160909830065374e-08
+    ],
+    "mae": 0.0006918588893309607,
+    "mae_xyz": [
+      0.0008203834601458733,
+      0.0010401376040403895,
+      0.00021505560380660475
+    ],
+    "norm_mesh": "outputs_task3\\person_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\person_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 1.7631068611526918e-06,
+    "mse_xyz": [
+      1.9290445043511178e-06,
+      1.6901141277927428e-06,
+      1.6701619513142027e-06
+    ],
+    "mae": 0.0011392551428412558,
+    "mae_xyz": [
+      0.0012033436996419966,
+      0.001113569845746489,
+      0.0011008518831352881
+    ],
+    "norm_mesh": "outputs_task3\\person_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\person_unitsphere_quant.ply"
+  }
+}

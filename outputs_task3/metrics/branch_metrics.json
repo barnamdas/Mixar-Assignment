@@ -1,0 +1,39 @@
+{
+  "mesh": "branch.obj",
+  "tag": "branch",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 7.815262558275772e-07,
+    "mse_xyz": [
+      8.983184729166263e-07,
+      1.173721059976608e-06,
+      2.725392345895e-07
+    ],
+    "mae": 0.0007340000765433482,
+    "mae_xyz": [
+      0.000818670534695198,
+      0.0009330417294175057,
+      0.00045028796551734506
+    ],
+    "norm_mesh": "outputs_task3\\branch_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\branch_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 2.339403117634809e-06,
+    "mse_xyz": [
+      2.2970399774911926e-06,
+      2.4496002808894303e-06,
+      2.2715690945238055e-06
+    ],
+    "mae": 0.0013248074861238479,
+    "mae_xyz": [
+      0.001297137758291712,
+      0.0013686973992361497,
+      0.0013085873008436882
+    ],
+    "norm_mesh": "outputs_task3\\branch_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\branch_unitsphere_quant.ply"
+  }
+}

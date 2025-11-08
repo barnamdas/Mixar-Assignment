@@ -1,0 +1,39 @@
+{
+  "mesh": "cylinder.obj",
+  "tag": "cylinder",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 7.966258421033582e-07,
+    "mse_xyz": [
+      1.1949387631550368e-06,
+      0.0,
+      1.1949387631550368e-06
+    ],
+    "mae": 0.0006109481915933477,
+    "mae_xyz": [
+      0.0009164222873900216,
+      0.0,
+      0.0009164222873900216
+    ],
+    "norm_mesh": "outputs_task3\\cylinder_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\cylinder_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 2.5735636000765344e-06,
+    "mse_xyz": [
+      2.525702349479517e-06,
+      2.669286101270609e-06,
+      2.5257023494794822e-06
+    ],
+    "mae": 0.0013824181634276994,
+    "mae_xyz": [
+      0.0013824181634276992,
+      0.0013824181634277122,
+      0.0013824181634276868
+    ],
+    "norm_mesh": "outputs_task3\\cylinder_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\cylinder_unitsphere_quant.ply"
+  }
+}

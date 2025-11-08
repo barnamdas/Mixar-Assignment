@@ -1,0 +1,39 @@
+{
+  "mesh": "talwar.obj",
+  "tag": "talwar",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 1.307100895117411e-07,
+    "mse_xyz": [
+      1.3780026695952058e-09,
+      3.727312185166026e-07,
+      1.8021047349023286e-08
+    ],
+    "mae": 0.00022837003788953226,
+    "mae_xyz": [
+      3.13819073773252e-05,
+      0.0005372716378217046,
+      0.00011645656846956401
+    ],
+    "norm_mesh": "outputs_task3\\talwar_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\talwar_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 5.845993011736295e-07,
+    "mse_xyz": [
+      6.359926129282925e-07,
+      5.368018446146848e-07,
+      5.810034459779177e-07
+    ],
+    "mae": 0.0006505920271432901,
+    "mae_xyz": [
+      0.0006883312872293368,
+      0.0006087506735698424,
+      0.0006546941206306963
+    ],
+    "norm_mesh": "outputs_task3\\talwar_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\talwar_unitsphere_quant.ply"
+  }
+}

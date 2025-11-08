@@ -1,0 +1,39 @@
+{
+  "mesh": "girl.obj",
+  "tag": "girl",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 2.0540857857605905e-07,
+    "mse_xyz": [
+      3.1510501115967993e-07,
+      2.591587972095348e-07,
+      4.1961927358961494e-08
+    ],
+    "mae": 0.00036982259319256485,
+    "mae_xyz": [
+      0.0004910627539078282,
+      0.00044113285866406493,
+      0.00017727216700580116
+    ],
+    "norm_mesh": "outputs_task3\\girl_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\girl_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 3.5219181767372975e-07,
+    "mse_xyz": [
+      3.564402524345904e-07,
+      3.5091451674872274e-07,
+      3.4922068383787376e-07
+    ],
+    "mae": 0.0005163143670199183,
+    "mae_xyz": [
+      0.0005213271278649682,
+      0.0005159384099560907,
+      0.0005116775632387071
+    ],
+    "norm_mesh": "outputs_task3\\girl_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\girl_unitsphere_quant.ply"
+  }
+}

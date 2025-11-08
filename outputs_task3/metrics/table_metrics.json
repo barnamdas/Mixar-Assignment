@@ -1,0 +1,39 @@
+{
+  "mesh": "table.obj",
+  "tag": "table",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 1.4881127939019155e-07,
+    "mse_xyz": [
+      4.331020767845622e-08,
+      1.030992184993578e-07,
+      3.000244119927595e-07
+    ],
+    "mae": 0.0003067378844393455,
+    "mae_xyz": [
+      0.0001638231939222565,
+      0.00027134223252734546,
+      0.0004850482268684305
+    ],
+    "norm_mesh": "outputs_task3\\table_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\table_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 4.6995121045678146e-07,
+    "mse_xyz": [
+      4.678687826287257e-07,
+      4.6817462052323864e-07,
+      4.738102282183812e-07
+    ],
+    "mae": 0.0005989163298246506,
+    "mae_xyz": [
+      0.000599927585765098,
+      0.0005995483647841596,
+      0.0005972730389246907
+    ],
+    "norm_mesh": "outputs_task3\\table_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\table_unitsphere_quant.ply"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "mesh": "fence.obj",
+  "tag": "fence",
+  "bins": 1024,
+  "minmax": {
+    "method": "minmax",
+    "mse": 1.5700000336421819e-07,
+    "mse_xyz": [
+      2.6361238518231795e-07,
+      2.0730225868035893e-07,
+      8.53662299794119e-11
+    ],
+    "mae": 0.00027300471568148183,
+    "mae_xyz": [
+      0.0004258087246995595,
+      0.000389324104421822,
+      3.881317923063797e-06
+    ],
+    "norm_mesh": "outputs_task3\\fence_minmax_norm.ply",
+    "rec_mesh": "outputs_task3\\fence_minmax_quant.ply"
+  },
+  "unitsphere": {
+    "method": "unitsphere",
+    "mse": 3.6075811017769505e-07,
+    "mse_xyz": [
+      4.0995195710134145e-07,
+      3.690322531372848e-07,
+      3.0329012029446187e-07
+    ],
+    "mae": 0.0005421463852801064,
+    "mae_xyz": [
+      0.0005700807075045329,
+      0.0005844154254888728,
+      0.0004719430228469186
+    ],
+    "norm_mesh": "outputs_task3\\fence_unitsphere_norm.ply",
+    "rec_mesh": "outputs_task3\\fence_unitsphere_quant.ply"
+  }
+}
