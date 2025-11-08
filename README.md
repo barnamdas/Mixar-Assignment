@@ -71,30 +71,46 @@ python -m pip install numpy trimesh matplotlib
 ```
 ```bash
 ## **Folder Structure**
-Submission/
+Mixar-Assignment/
 │
-│─ process_meshes.py
-│─ task2_normalize_quantize.py
-│─ task3_reconstruct_analyze.py
+├── 8samples/8samples/              # Input mesh models (.obj)
+│   ├── branch.obj
+│   ├── cylinder.obj
+│   ├── explosive.obj
+│   ├── fence.obj
+│   ├── girl.obj
+│   ├── person.obj
+│   ├── table.obj
+│   └── talwar.obj
 │
-├─ outputs_task2/                # Normalized and Quantized Meshes
-│   ├─ *_minmax_norm.ply
-│   ├─ *_minmax_quant.ply
-│   ├─ *_unitsphere_norm.ply
-│   └─ *_unitsphere_quant.ply
+├── outputs_task2/                  # Task 2 results (normalized + quantized)
+│   ├── *_minmax_norm.ply
+│   ├── *_minmax_quant.ply
+│   ├── *_unitsphere_norm.ply
+│   └── *_unitsphere_quant.ply
 │
-├─ outputs_task3/                # Reconstruction + Error Analysis
-│   ├─ *_minmax_quant.ply
-│   ├─ *_unitsphere_quant.ply
-│   ├─ mse_per_axis.png
-│   ├─ mae_per_axis.png
-│   └─ metrics/
-│       ├─ *_metrics.json
-│       └─ all_metrics.csv
+├── outputs_task3/                  # Task 3 reconstruction + error analysis
+│   ├── *_minmax_norm.ply
+│   ├── *_minmax_quant.ply
+│   ├── *_unitsphere_norm.ply
+│   ├── *_unitsphere_quant.ply
+│   ├── mse_per_axis.png
+│   ├── mae_per_axis.png
+│   └── metrics/
+│       ├── *.json                  # per-model error metrics
+│       └── all_metrics.csv         # combined comparison table
 │
-├─ visualizations/               # Blender / Scatter screenshots (insert manually)
+├── visualizations/                 # Blender / Screenshots 
+│   └── *.png
 │
-└─ Final_Mixar_Report.pdf              # End-to-end summary report
+├── process_meshes.py               # Task 1: Mesh inspection
+├── task2_normalize_quantize.py     # Task 2: Normalization + Quantization
+├── task3_reconstruct_analyze.py    # Task 3: Reconstruction + Error plots
+├── quick_scatter.py                # Helper script: 3D scatter viewer
+│
+├── README.md                       # Instructions to run project
+└── Final_Mixar_Report.pdf          # Final report (to submit)
+
 ```
 ## **How to Run the Code**
 
