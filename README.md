@@ -180,15 +180,6 @@ Get-ChildItem "8samples/8samples" -Filter *.obj | ForEach-Object {
 - Unit Sphere normalization is still useful when a uniform scaling reference is required.
 - Quantization at 1024 bins introduces negligible geometry loss.
 
----
-
-## **Screenshots & Visuals (Insert Manually)**
-| Stage | Screenshot |
-|------|------------|
-| Min–Max Normalized | (img) |
-| Min–Max Quantized | (img) |
-| Unit Sphere Normalized | (img) |
-| Unit Sphere Quantized | (img) |
 
 ---
 
