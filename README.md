@@ -69,6 +69,7 @@ The dataset consists of **8 OBJ files**:
 ```bash
 python -m pip install numpy trimesh matplotlib
 ```
+```bash
 ## **Folder Structure**
 Submission/
 │
@@ -94,7 +95,7 @@ Submission/
 ├─ visualizations/               # Blender / Scatter screenshots (insert manually)
 │
 └─ Final_Report.pdf              # End-to-end summary report
-
+```
 ## **How to Run the Code**
 
 ### Task 1 — Mesh Loading & Inspection
