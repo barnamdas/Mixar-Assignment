@@ -68,3 +68,30 @@ The dataset consists of **8 OBJ files**:
 ## **Environment Setup**
 ```bash
 python -m pip install numpy trimesh matplotlib
+
+## **Folder Structure**
+Submission/
+│
+│─ process_meshes.py
+│─ task2_normalize_quantize.py
+│─ task3_reconstruct_analyze.py
+│
+├─ outputs_task2/                # Normalized and Quantized Meshes
+│   ├─ *_minmax_norm.ply
+│   ├─ *_minmax_quant.ply
+│   ├─ *_unitsphere_norm.ply
+│   └─ *_unitsphere_quant.ply
+│
+├─ outputs_task3/                # Reconstruction + Error Analysis
+│   ├─ *_minmax_quant.ply
+│   ├─ *_unitsphere_quant.ply
+│   ├─ mse_per_axis.png
+│   ├─ mae_per_axis.png
+│   └─ metrics/
+│       ├─ *_metrics.json
+│       └─ all_metrics.csv
+│
+├─ visualizations/               # Blender / Scatter screenshots (insert manually)
+│
+└─ Final_Report.pdf              # End-to-end summary report
+
