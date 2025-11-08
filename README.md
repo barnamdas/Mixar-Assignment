@@ -1,5 +1,5 @@
-# Mixar-Assignment , [RA2211003011506]
-
+# Mixar-Assignment, by Barnam Das [RA2211003011506]
+ 
 # 3D Mesh Normalization, Quantization & Reconstruction  
 *Computer Graphics / Geometry Processing Assignment*
 
