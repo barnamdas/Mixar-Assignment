@@ -94,7 +94,7 @@ Submission/
 │
 ├─ visualizations/               # Blender / Scatter screenshots (insert manually)
 │
-└─ Final_Report.pdf              # End-to-end summary report
+└─ Final_Mixar_Report.pdf              # End-to-end summary report
 ```
 ## **How to Run the Code**
 
